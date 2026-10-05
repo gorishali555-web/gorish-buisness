@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Projects | Gori Business</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        .projects-page {
+            padding: 150px 8% 80px;
+            min-height: 100vh;
+        }
+
+        .projects-heading {
+            text-align: center;
+            max-width: 750px;
+            margin: 0 auto 60px;
+        }
+
+        .projects-heading span {
+            display: inline-block;
+            margin-bottom: 15px;
+            font-size: 14px;
+            font-weight: 700;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+        }
+
+        .projects-heading h1 {
+            font-size: clamp(40px, 6vw, 72px);
+            margin-bottom: 20px;
+        }
+
+        .projects-heading p {
+            font-size: 17px;
+            line-height: 1.8;
+            opacity: 0.75;
+        }
+
+        .all-projects-grid {
+            max-width: 1200px;
+            margin: auto;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 30px;
+        }
+
+        .project-box {
+            padding: 35px;
+            border: 1px solid rgba(128, 128, 128, 0.25);
+            border-radius: 20px;
+            transition: 0.3s ease;
+            background: rgba(128, 128, 128, 0.05);
+        }
+
+        .project-box:hover {
+            transform: translateY(-8px);
+        }
+
+        .project-number {
+            font-size: 14px;
+            font-weight: 700;
+            opacity: 0.55;
+            margin-bottom: 20px;
+        }
+
+        .project-box h2 {
+            font-size: 28px;
+            margin-bottom: 15px;
+        }
+
+        .project-box p {
+            line-height: 1.7;
+            opacity: 0.75;
+            margin-bottom: 25px;
+        }
+
+        .project-tech {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-bottom: 25px;
+        }
+
+        .project-tech span {
+            padding: 7px 12px;
+            border-radius: 30px;
+            background: rgba(128, 128, 128, 0.12);
+            font-size: 13px;
+        }
+
+        .project-link {
+            display: inline-block;
+            text-decoration: none;
+            font-weight: 700;
+        }
+
+        @media (max-width: 768px) {
+            .projects-page {
+                padding: 120px 5% 60px;
+            }
+
+            .all-projects-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .project-box {
+                padding: 25px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <header class="navbar">
+        <div class="logo">
+            Gori<span>Business</span>
+        </div>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="index.html#about">About</a>
+            <a href="index.html#services">Services</a>
+            <a href="projects.html" class="active">Projects</a>
+            <a href="index.html#contact">Contact</a>
+        </nav>
+
+        <a href="index.html#contact" class="nav-btn">
+            Let's Talk
+        </a>
+    </header>
+
+
+    <!-- PROJECTS -->
+    <main class="projects-page">
+
+        <div class="projects-heading">
+
+            <span>Our Work</span>
+
+            <h1>
+                Projects That
+                <br>
+                Make an Impact.
+            </h1>
+
+            <p>
+                Explore selected digital projects built using modern
+                web technologies, business solutions and software
+                development tools.
+            </p>
+
+        </div>
+
+
+        <div class="all-projects-grid">
+
+
+            <!-- PROJECT 01 -->
+            <div class="project-box">
+
+                <div class="project-number">
+                    PROJECT 01
+                </div>
+
+                <h2>
+                    Business Website
+                </h2>
+
+                <p>
+                    A professional business website designed to present
+                    services, company information, projects and contact
+                    details in a modern digital experience.
+                </p>
+
+                <div class="project-tech">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                    <span>Node.js</span>
+                </div>
+
+                <a href="projects/business.html" class="project-link">
+                    View Project →
+                </a>
+
+            </div>
+
+
+            <!-- PROJECT 02 -->
+            <div class="project-box">
+
+                <div class="project-number">
+                    PROJECT 02
+                </div>
+
+                <h2>
+                    E-Commerce Store
+                </h2>
+
+                <p>
+                    An online shopping platform concept focused on
+                    product presentation, user-friendly navigation
+                    and a professional digital storefront.
+                </p>
+
+                <div class="project-tech">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                </div>
+
+                <a href="projects/ecommerce.html" class="project-link">
+                    View Project →
+                </a>
+
+            </div>
+
+
+            <!-- PROJECT 03 -->
+            <div class="project-box">
+
+                <div class="project-number">
+                    PROJECT 03
+                </div>
+
+                <h2>
+                    Hostel Management System
+                </h2>
+
+                <p>
+                    A university project designed to manage hostel
+                    information and simplify administrative operations
+                    through a digital management system.
+                </p>
+
+                <div class="project-tech">
+                    <span>PHP</span>
+                    <span>MySQL</span>
+                    <span>HTML</span>
+                    <span>CSS</span>
+                </div>
+
+                <a href="projects/hostel.html" class="project-link">
+                    View Project →
+                </a>
+
+            </div>
+
+
+            <!-- PROJECT 04 -->
+            <div class="project-box">
+
+                <div class="project-number">
+                    PROJECT 04
+                </div>
+
+                <h2>
+                    Voice Control Robot
+                </h2>
+
+                <p>
+                    A final year project where a robot car is controlled
+                    through Bluetooth and voice commands including
+                    forward, reverse, left, right and stop.
+                </p>
+
+                <div class="project-tech">
+                    <span>Arduino</span>
+                    <span>Bluetooth</span>
+                    <span>Voice Control</span>
+                    <span>Sensors</span>
+                </div>
+
+                <a href="projects/voice-robot.html" class="project-link">
+                    View Project →
+                </a>
+
+            </div>
+
+
+            <!-- PROJECT 05 -->
+            <div class="project-box">
+
+                <div class="project-number">
+                    PROJECT 05
+                </div>
+
+                <h2>
+                    Management System
+                </h2>
+
+                <p>
+                    A software management solution concept created to
+                    organize records, information and common business
+                    operations through a digital platform.
+                </p>
+
+                <div class="project-tech">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                    <span>Database</span>
+                </div>
+
+                <a href="projects/business.html" class="project-link">
+                    View Project →
+                </a>
+
+            </div>
+
+
+            <!-- PROJECT 06 -->
+            <div class="project-box">
+
+                <div class="project-number">
+                    PROJECT 06
+                </div>
+
+                <h2>
+                    Professional Portfolio
+                </h2>
+
+                <p>
+                    A personal portfolio concept showcasing technical
+                    skills, projects, services and professional
+                    information in a clean modern layout.
+                </p>
+
+                <div class="project-tech">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                </div>
+
+                <a href="projects/business.html" class="project-link">
+                    View Project →
+                </a>
+
+            </div>
+
+        </div>
+
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer>
+        <p>
+            © 2026 Gori Business. All Rights Reserved.
+        </p>
+    </footer>
+
+</body>
+</html>
