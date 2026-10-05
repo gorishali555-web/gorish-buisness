@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Voice Control Robot | Gori Business</title>
+
+    <link rel="stylesheet" href="../style.css">
+
+    <style>
+
+        .project-detail {
+            padding: 160px 7% 100px;
+            max-width: 1100px;
+            margin: auto;
+        }
+
+        .back-link {
+            color: #2563eb;
+            font-weight: bold;
+        }
+
+        .project-hero {
+            margin-top: 35px;
+            padding: 70px 50px;
+            border-radius: 20px;
+            color: white;
+            background: linear-gradient(135deg, #f97316, #9a3412);
+        }
+
+        .project-hero h1 {
+            font-size: 55px;
+            margin: 15px 0;
+        }
+
+        .project-hero p {
+            max-width: 650px;
+            color: #ffedd5;
+        }
+
+        .detail-grid {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 40px;
+            margin-top: 50px;
+        }
+
+        .detail-box {
+            padding: 30px;
+            border: 1px solid #e5e7eb;
+            border-radius: 15px;
+        }
+
+        .detail-box h2 {
+            margin-bottom: 15px;
+        }
+
+        .detail-box p {
+            color: #64748b;
+            margin-bottom: 12px;
+        }
+
+        .tech {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .tech span {
+            padding: 8px 13px;
+            background: #fff7ed;
+            color: #ea580c;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: bold;
+        }
+
+        .commands {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10px;
+            margin-top: 15px;
+        }
+
+        .commands div {
+            padding: 12px;
+            background: #fff7ed;
+            border-radius: 8px;
+            font-weight: bold;
+            color: #9a3412;
+        }
+
+        @media(max-width:700px) {
+
+            .project-hero h1 {
+                font-size: 38px;
+            }
+
+            .project-hero {
+                padding: 40px 25px;
+            }
+
+            .detail-grid {
+                grid-template-columns: 1fr;
+            }
+
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+<header class="navbar">
+
+    <a href="../index.html" class="logo">
+        Gori<span>Business</span>
+    </a>
+
+    <nav>
+        <a href="../index.html">Home</a>
+        <a href="../index.html#about">About</a>
+        <a href="../index.html#services">Services</a>
+        <a href="../projects.html">Projects</a>
+        <a href="../index.html#contact">Contact</a>
+    </nav>
+
+</header>
+
+
+<main class="project-detail">
+
+    <a href="../index.html#projects" class="back-link">
+        ← Back to Projects
+    </a>
+
+
+    <section class="project-hero">
+
+        <small>ARDUINO + BLUETOOTH</small>
+
+        <h1>
+            Voice Control Robot
+        </h1>
+
+        <p>
+            A voice-controlled robotic car operated through
+            mobile Bluetooth commands and an Arduino-based
+            control system.
+        </p>
+
+    </section>
+
+
+    <div class="detail-grid">
+
+        <div class="detail-box">
+
+            <h2>Project Overview</h2>
+
+            <p>
+                This project demonstrates a robotic car controlled
+                from a mobile phone using Bluetooth communication.
+            </p>
+
+            <p>
+                Voice commands are converted into movement commands
+                and sent to the Arduino-based robot.
+            </p>
+
+            <h2>Voice Commands</h2>
+
+            <div class="commands">
+
+                <div>⬆ Forward</div>
+                <div>⬇ Reverse</div>
+                <div>⬅ Left</div>
+                <div>➡ Right</div>
+                <div>⛔ Stop</div>
+
+            </div>
+
+        </div>
+
+
+        <div class="detail-box">
+
+            <h2>Components</h2>
+
+            <p>✓ Arduino</p>
+            <p>✓ Bluetooth module</p>
+            <p>✓ Motor driver</p>
+            <p>✓ Sensors</p>
+            <p>✓ Wheels</p>
+
+
+            <h2 style="margin-top:30px;">
+                Technologies
+            </h2>
+
+            <div class="tech">
+
+                <span>Arduino</span>
+                <span>Bluetooth</span>
+                <span>C/C++</span>
+                <span>Robotics</span>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</main>
+
+
+<footer>
+
+    <div class="footer-logo">
+        Gori<span>Business</span>
+    </div>
+
+    <p>
+        Building digital solutions for modern businesses.
+    </p>
+
+    <small>
+        © 2026 Gori Business
+    </small>
+
+</footer>
+
+</body>
+</html>
